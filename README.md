@@ -1,4 +1,10 @@
 # Workout Tracker
+<p>
+ <a href=""><img alt="NPM version" src="https://img.shields.io/badge/npm-v6.14.10-blue" target="_blank" /></a>
+ <a href=""><img alt="Dependencies" src="https://img.shields.io/badge/dependencies%20-up%20to%20date-orange" target="_blank" /></a>
+ <a href="https://github.com/nashwalters"><img alt="Ask me anything" src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" target="_blank" /></a>
+ <a href=""><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" /></a>
+ </p>
 
 
 ## Table of Contents
@@ -18,8 +24,11 @@ This is a workout tracker that was created from refactoring starter code. The ap
 
 ## Technology
 [Node.js](https://nodejs.org/en/)
+
 [Express.js](https://expressjs.com/)
+
 [MongoDB](https://www.mongodb.com/)
+
 [Mongoosejs](https://mongoosejs.com/docs/guide.html)
 
 ## Usage
@@ -41,13 +50,20 @@ Click [Workout Tracker](https://sleepy-atoll-83909.herokuapp.com/) to deploy app
 
 ### Screenshots
 
+<p align= "center">
+<img src="public/img/main.png" alt="app" width="600px">
+<img src="public/img/add-exercise.png" alt="app" width="600px">
+<img src="public/img/exercise.png" alt="app" width="600px">
+<img src="public/img/stats.png" alt="app" width="600px">
+</p>
+
+
 ## Credits
 * [Adam Simonini](https://github.com/adamsimonini)
 
 ## Contact
-Nash Walters - nash.walters@gmail.com
+If you have any questions, I can be reached via:
+* <bold>Email</bold>: nash.walters@outlook.com
 
 ## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Copyright © 2021 Nash Walters
