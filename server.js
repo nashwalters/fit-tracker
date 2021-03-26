@@ -14,13 +14,15 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //connect to mongo with mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/tracker", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
+  useUnifiedTopology: true,
   useFindAndModify: false
 });
 
 // routes
-
+app.use(require("./routes/api-routes.js"));
+app.use(require("./routes/html-routes.js"));
 
 //listen on defined port
 app.listen(PORT, () => {
